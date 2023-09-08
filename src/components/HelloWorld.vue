@@ -4,7 +4,7 @@
 // const count = ref(0)
 </script>
 
-<template >
+<template>
   <!-- <h1>{{ msg }}</h1> -->
 
   <!-- <div class="card">
@@ -12,50 +12,58 @@
   </div> -->
   <div class="head-login col-12 container bg-white">
     <div class="head-text col-4 m-auto">
-      <img src="src/assets/icon01.png" class="head-icon">
+      <img src="src/assets/icon01.png" class="head-icon" />
       <div>Home</div>
       <div>Service</div>
       <div>About Us</div>
       <div>Blog</div>
     </div>
-    <div class="search-container col-4" >
+    <div class="search-container col-4">
       <form action="" class="d-flex form-search">
         <input
           type="text"
           placeholder="Search.."
           name="search"
           class="input-search"
-          
         />
         <button type="submit"><i class="fa fa-search"></i></button>
       </form>
     </div>
     <div class="col-2 t-call m-auto">
-     <div> <svg xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16" color="#264971"> <path fill-rule="evenodd"  d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-      </svg></div>
-      <div style="margin-left:1rem;">
-      <div>Call me</div>
-      <div>080-123-4567  </div>
-    </div>
+      <div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="1.5rem"
+          height="1.5rem"
+          fill="currentColor"
+          class="bi bi-telephone-fill"
+          viewBox="0 0 16 16"
+          color="#264971"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+          />
+        </svg>
+      </div>
+      <div style="margin-left: 1rem">
+        <div>Call me</div>
+        <div>080-123-4567</div>
+      </div>
     </div>
   </div>
 
-  
-  <div>
-    ccccc
-  </div><div>
-    ccccc
-  </div><div>
-    ccccc
-  </div><div>
-    ccccc
+  <div class="gruop-text-title col-5">
+    <font color="#2752a3">Pets</font> are humanizing. They remind us we have an
+    obligation and responsibility to preserve and nurture and
+    <font color="#2752a3">care </font>for all life.
   </div>
-
-
+  <div class="col-5 title-sm">
+    Take care of your pets with us. One of the best pet care apps You can easily view appointment schedules and care for all aspects of your pet. And there are many friends who are ready to give you advice.
+  </div>
 </template>
 
 <style scoped>
-
 .read-the-docs {
   color: #888;
 }
@@ -73,7 +81,7 @@
   border: none;
   border-radius: 1rem;
   cursor: pointer;
-  color:#fff;
+  color: #fff;
 }
 .input-search {
   width: -webkit-fill-available;
@@ -94,24 +102,37 @@
 .head-text {
   justify-content: space-around;
   display: flex;
-  align-items: center; 
+  align-items: center;
   font-weight: 500;
-}.t-call{
+}
+.t-call {
   font-size: 13px;
-    font-weight: 500;
-    text-align: left;
-    display: flex;
-    align-items: center;
-}.head-icon{
+  font-weight: 500;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.head-icon {
   height: 3rem;
-    width: fit-content;
+  width: fit-content;
 }
 .head-login {
   display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    box-shadow: 0px 4px 6px #00000021;
-    max-width: -webkit-fill-available;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  box-shadow: 0px 4px 6px #00000021;
+  max-width: -webkit-fill-available;
+}
+.gruop-text-title {
+  font-size: 35px;
+  font-weight: 500;
+  color: rgb(66, 66, 66);
+  background-color: #fff;
+  padding: 2% 4%;
+}.title-sm{
+  padding: 0 4%;
+  text-align: justify;
+  background-color: #fff;
 }
 </style>
