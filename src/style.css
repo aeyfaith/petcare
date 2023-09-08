@@ -34,7 +34,7 @@ body {
   min-height: 100vh; */
 }
 body{
-  background-image: url(src/assets/bg01.jpg);
+  /* background-image: url(src/assets/bg01.jpg); */
   background-size: cover;
   background-repeat: no-repeat;
 }

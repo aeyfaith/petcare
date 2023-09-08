@@ -58,7 +58,7 @@
     obligation and responsibility to preserve and nurture and
     <font color="#2752a3">care </font>for all life.
   </div>
-  <div class="col-5 title-sm">
+  <div class="col-4 title-sm">
     Take care of your pets with us. One of the best pet care apps You can easily view appointment schedules and care for all aspects of your pet. And there are many friends who are ready to give you advice.
   </div>
 </template>
@@ -128,11 +128,10 @@
   font-size: 35px;
   font-weight: 500;
   color: rgb(66, 66, 66);
-  background-color: #fff;
   padding: 2% 4%;
 }.title-sm{
   padding: 0 4%;
-  text-align: justify;
-  background-color: #fff;
+  text-align: start;
+
 }
 </style>
