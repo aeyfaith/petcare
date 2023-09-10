@@ -74,6 +74,34 @@ button:focus-visible {
 .d-flex{
   display: flex!important;
 }
+.btn-signup{
+  border: 2px solid #469AEE;
+    background: #fff;
+    border-radius: 5px;
+    width: 9rem;
+    color: #469AEE;
+}
+.btn-signup:hover{
+  border: 2px solid #469AEE;
+    background: #469AEE;
+    border-radius: 5px;
+    width: 9rem;
+    color: #ffffff;
+}
+.btn-login{
+  border: 2px solid #469AEE;
+  background: #469AEE;
+  border-radius: 5px;
+  width: 9rem;
+  color:  #ffffff;
+}
+.btn-login:hover{
+  border: 2px solid #357abe;
+    background: #357abe;
+    border-radius: 5px;
+    width: 9rem;
+    color:  #ffffff;
+}
 
 @media (prefers-color-scheme: light) {
   :root {

@@ -52,15 +52,42 @@
       </div>
     </div>
   </div>
+  <div class="item01 col-12 d-flex">
+    <div class="col-5">
+      <img src="src/assets/icon01.png" alt="" class="icon-logo" />
+      <div class="gruop-text-title">
+        The more<font color="#2752a3"> people </font>I meet, the more I love my
+        <font color="#2752a3">pet </font>for all life.
+      </div>
+      <div class="title-sm">
+        Take care of your pets with us. One of the best pet care apps You can
+        easily view appointment schedules and care for all aspects of your pet.
+        And there are many friends who are ready to give you advice.
+      </div>
+      <div class=" " style="padding-top: 3rem">
+        <button class="btn-signup" style="margin-right: 1rem">Sign up</button>
+        <button class="btn-login">Login</button>
+      </div>
+    </div>
+    <div class="img01 col-6">
+      <img src="src/assets/petpng01.png" alt="" class="imgpng01" />
+    </div>
+  </div>
+  <div>
+    <div class="item02 col-12 d-flex">
+      <div class="col-6">
+        <div class="gruop-text-title">Pet Care Service</div>
+        <div class="title-sm">
+          A complete range of services for your pets is available on our app.
+        </div>
+      </div>
+      <div class="col-6">
+        
+      
+      </div>
+    </div>
+  </div>
 
-  <div class="gruop-text-title col-5">
-    <font color="#2752a3">Pets</font> are humanizing. They remind us we have an
-    obligation and responsibility to preserve and nurture and
-    <font color="#2752a3">care </font>for all life.
-  </div>
-  <div class="col-4 title-sm">
-    Take care of your pets with us. One of the best pet care apps You can easily view appointment schedules and care for all aspects of your pet. And there are many friends who are ready to give you advice.
-  </div>
 </template>
 
 <style scoped>
@@ -128,10 +155,71 @@
   font-size: 35px;
   font-weight: 500;
   color: rgb(66, 66, 66);
-  padding: 2% 4%;
-}.title-sm{
-  padding: 0 4%;
+  padding-top: 3rem;
+}
+.title-sm {
+  padding-top: 1.5rem;
   text-align: start;
+  padding-left: 1rem;
+}
+.item01 {
+  padding: 4rem 4rem 0rem 4rem;
+  background-image: url(src/assets/bg02.PNG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.item02 {
+  padding: 2rem 4rem 2rem 4rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img01 {
+  margin-left: auto;
+}
+.imgpng01 {
+  height: auto;
+  width: auto;
+}
+.icon-logo {
+  width: 10rem;
+}
 
+/* collap card*/
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .imgpng01 {
+    height: 40%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .imgpng01 {
+    height: 50%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .imgpng01 {
+    height: 60%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .imgpng01 {
+    height: 80%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .imgpng01 {
+    height: 90%;
+  }
 }
 </style>
