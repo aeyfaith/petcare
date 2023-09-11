@@ -83,15 +83,28 @@
           track results at every stage of your pet's life.
         </div>
         <div class="accordion collap-menu" role="tablist">
-          <div no-body class="mb-1">
+          <div no-body class="mb-1 text-detail-item02">
             <div header-tag="header" class="p-1" role="tab">
               <b-button
                 block
                 v-b-toggle.accordion-1
                 variant="info"
                 class="btn-collap"
-                >Vaccine </b-button
-              >
+                >Vaccine
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  viewBox="0 0 16 16"
+                  class="icon-updown"
+                >
+                  <g fill="none">
+                    <path
+                      d="M4.22 6.53a.75.75 0 0 0 1.06 0L8 3.81l2.72 2.72a.75.75 0 1 0 1.06-1.06L8.53 2.22a.75.75 0 0 0-1.06 0L4.22 5.47a.75.75 0 0 0 0 1.06zm0 2.94a.75.75 0 0 1 1.06 0L8 12.19l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0l-3.25-3.25a.75.75 0 0 1 0-1.06z"
+                      fill="currentColor"
+                    ></path>
+                  </g>
+                </svg>
+              </b-button>
             </div>
             <b-collapse
               id="accordion-1"
@@ -105,15 +118,28 @@
             </b-collapse>
           </div>
 
-          <div no-body class="mb-1">
+          <div no-body class="mb-1 text-detail-item02">
             <div header-tag="header" class="p-1" role="tab">
               <b-button
                 block
                 v-b-toggle.accordion-2
                 variant="info"
                 class="btn-collap"
-                >Food</b-button
-              >
+                >Food
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  viewBox="0 0 16 16"
+                  class="icon-updown"
+                >
+                  <g fill="none">
+                    <path
+                      d="M4.22 6.53a.75.75 0 0 0 1.06 0L8 3.81l2.72 2.72a.75.75 0 1 0 1.06-1.06L8.53 2.22a.75.75 0 0 0-1.06 0L4.22 5.47a.75.75 0 0 0 0 1.06zm0 2.94a.75.75 0 0 1 1.06 0L8 12.19l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0l-3.25-3.25a.75.75 0 0 1 0-1.06z"
+                      fill="currentColor"
+                    ></path>
+                  </g>
+                </svg>
+              </b-button>
             </div>
             <b-collapse
               id="accordion-2"
@@ -126,18 +152,65 @@
             </b-collapse>
           </div>
 
-          <div no-body class="mb-1">
+          <div no-body class="mb-1 text-detail-item02">
             <div header-tag="header" class="p-1" role="tab">
               <b-button
                 block
                 v-b-toggle.accordion-3
                 variant="info"
                 class="btn-collap"
-                >Grooming</b-button
-              >
+                >Grooming
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  viewBox="0 0 16 16"
+                  class="icon-updown"
+                >
+                  <g fill="none">
+                    <path
+                      d="M4.22 6.53a.75.75 0 0 0 1.06 0L8 3.81l2.72 2.72a.75.75 0 1 0 1.06-1.06L8.53 2.22a.75.75 0 0 0-1.06 0L4.22 5.47a.75.75 0 0 0 0 1.06zm0 2.94a.75.75 0 0 1 1.06 0L8 12.19l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0l-3.25-3.25a.75.75 0 0 1 0-1.06z"
+                      fill="currentColor"
+                    ></path>
+                  </g>
+                </svg>
+              </b-button>
             </div>
             <b-collapse
               id="accordion-3"
+              accordion="my-accordion"
+              role="tabpanel"
+            >
+              <card-body>
+                <card-text>{{ text }}</card-text>
+              </card-body>
+            </b-collapse>
+          </div>
+
+          <div no-body class="mb-1 text-detail-item02">
+            <div header-tag="header" class="p-1" role="tab">
+              <b-button
+                block
+                v-b-toggle.accordion-4
+                variant="info"
+                class="btn-collap"
+                >Grooming
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  viewBox="0 0 16 16"
+                  class="icon-updown"
+                >
+                  <g fill="none">
+                    <path
+                      d="M4.22 6.53a.75.75 0 0 0 1.06 0L8 3.81l2.72 2.72a.75.75 0 1 0 1.06-1.06L8.53 2.22a.75.75 0 0 0-1.06 0L4.22 5.47a.75.75 0 0 0 0 1.06zm0 2.94a.75.75 0 0 1 1.06 0L8 12.19l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0l-3.25-3.25a.75.75 0 0 1 0-1.06z"
+                      fill="currentColor"
+                    ></path>
+                  </g>
+                </svg>
+              </b-button>
+            </div>
+            <b-collapse
+              id="accordion-4"
               accordion="my-accordion"
               role="tabpanel"
             >
@@ -158,21 +231,13 @@ export default {
   data() {
     return {
       text: `
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-          richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
-          brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
-          tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
-          assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
-          wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
-          vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic
-          synth nesciunt you probably haven't heard of them accusamus labore VHS.
+      Vaccinating pets is very important. The notification system is therefore important because if it is missing it will cause the vaccine to lose its effectiveness.
+       Vaccinations protect your pet from highly contagious and/or deadly diseases and improve your pet's overall quality of life. Experts agree that widespread use of vaccinations within the last century has prevented death and disease in millions of animals.
         `,
       text2: `ccccccccccccccccccccccccccccccccccccccccccccc`,
     };
   },
 };
-
-
 </script>
 
 <style scoped>
@@ -269,9 +334,11 @@ export default {
   width: 10rem;
 }
 .collap-menu {
-  padding: 1rem;
-  /* border: 1px solid #f3f3f3 ; */
+  padding: 0.75rem;
+  /* border: 1px solid #f3f3f3; */
   border-radius: 5px;
+  background: #f7f7f7;
+  margin: 1rem;
 }
 .btn-collap {
   width: -webkit-fill-available;
@@ -281,7 +348,10 @@ export default {
   font-weight: 500;
   text-align: start;
   font-size: 22px;
-  padding: 0.5rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .btn-collap:hover {
   color: #000000;
@@ -296,6 +366,15 @@ export default {
 .btn:first-child:active {
   background: #6bb5ff;
   border: 2px solid #6bb5ff;
+}
+.icon-updown {
+  height: 20px;
+  color: #fff;
+}
+.text-detail-item02 {
+  padding: 0;
+  background: #f7f7f7;
+  border-radius: 5px;
 }
 
 /* Extra small devices (phones, 600px and down) */

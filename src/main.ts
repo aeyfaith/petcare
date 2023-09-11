@@ -8,6 +8,6 @@ import 'bootstrap-vue-next/dist/bootstrap-vue-next.css'
 // Create the Vue app
 const app = createApp(App)
 app.mount('#app')
-createApp(App).mount('#app')
+// createApp(App).mount('#app')
 
 

@@ -13,6 +13,7 @@ declare module 'vue' {
     BCardHeader: typeof import('bootstrap-vue-next')['BCardHeader']
     BCardText: typeof import('bootstrap-vue-next')['BCardText']
     BCollapse: typeof import('bootstrap-vue-next')['BCollapse']
+    BDiv: typeof import('bootstrap-vue-next')['BDiv']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
   }
   export interface ComponentCustomProperties {
