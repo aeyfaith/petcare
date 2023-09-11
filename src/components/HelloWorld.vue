@@ -75,20 +75,105 @@
   </div>
   <div>
     <div class="item02 col-12 d-flex">
-      <div class="col-6">
+      <div class="col-5 m-auto">
         <div class="gruop-text-title">Pet Care Service</div>
         <div class="title-sm">
-          A complete range of services for your pets is available on our app.
+          Our app offers a complete range of services for your pet. People who
+          want to take care of their pet's health closely should use it. We
+          track results at every stage of your pet's life.
+        </div>
+        <div class="accordion collap-menu" role="tablist">
+          <div no-body class="mb-1">
+            <div header-tag="header" class="p-1" role="tab">
+              <b-button
+                block
+                v-b-toggle.accordion-1
+                variant="info"
+                class="btn-collap"
+                >Vaccine </b-button
+              >
+            </div>
+            <b-collapse
+              id="accordion-1"
+              visible
+              accordion="my-accordion"
+              role="tabpanel"
+            >
+              <card-body>
+                <card-text>{{ text }}</card-text>
+              </card-body>
+            </b-collapse>
+          </div>
+
+          <div no-body class="mb-1">
+            <div header-tag="header" class="p-1" role="tab">
+              <b-button
+                block
+                v-b-toggle.accordion-2
+                variant="info"
+                class="btn-collap"
+                >Food</b-button
+              >
+            </div>
+            <b-collapse
+              id="accordion-2"
+              accordion="my-accordion"
+              role="tabpanel"
+            >
+              <card-body>
+                <card-text>{{ text2 }}</card-text>
+              </card-body>
+            </b-collapse>
+          </div>
+
+          <div no-body class="mb-1">
+            <div header-tag="header" class="p-1" role="tab">
+              <b-button
+                block
+                v-b-toggle.accordion-3
+                variant="info"
+                class="btn-collap"
+                >Grooming</b-button
+              >
+            </div>
+            <b-collapse
+              id="accordion-3"
+              accordion="my-accordion"
+              role="tabpanel"
+            >
+              <card-body>
+                <card-text>{{ text }}</card-text>
+              </card-body>
+            </b-collapse>
+          </div>
         </div>
       </div>
-      <div class="col-6">
-        
-      
-      </div>
+      <div class="col-6"></div>
     </div>
   </div>
-
 </template>
+
+<script lang="ts">
+export default {
+  data() {
+    return {
+      text: `
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+          richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+          brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+          tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+          assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
+          wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
+          vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic
+          synth nesciunt you probably haven't heard of them accusamus labore VHS.
+        `,
+      text2: `ccccccccccccccccccccccccccccccccccccccccccccc`,
+    };
+  },
+};
+
+
+</script>
 
 <style scoped>
 .read-the-docs {
@@ -183,10 +268,35 @@
 .icon-logo {
   width: 10rem;
 }
-
-/* collap card*/
-
-
+.collap-menu {
+  padding: 1rem;
+  /* border: 1px solid #f3f3f3 ; */
+  border-radius: 5px;
+}
+.btn-collap {
+  width: -webkit-fill-available;
+  border: 2px solid #e7e7e7;
+  color: #2752a3;
+  background: #fff;
+  font-weight: 500;
+  text-align: start;
+  font-size: 22px;
+  padding: 0.5rem;
+}
+.btn-collap:hover {
+  color: #000000;
+  background: #68acef;
+  border: 2px solid #68acef;
+}
+.btn-collap:active {
+  color: #000000;
+  background: #57abff;
+  border: 2px solid #57abff;
+}
+.btn:first-child:active {
+  background: #6bb5ff;
+  border: 2px solid #6bb5ff;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
