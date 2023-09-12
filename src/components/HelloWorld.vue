@@ -75,6 +75,9 @@
   </div>
   <div>
     <div class="item02 col-12 d-flex">
+      <div class="img01 col-6">
+      <img src="src/assets/petpng02.png" alt="" class="imgpng01" />
+    </div>
       <div class="col-5 m-auto">
         <div class="gruop-text-title">Pet Care Service</div>
         <div class="title-sm">
@@ -82,7 +85,41 @@
           want to take care of their pet's health closely should use it. We
           track results at every stage of your pet's life.
         </div>
+
         <div class="accordion collap-menu" role="tablist">
+          <div no-body class="mb-1 text-detail-item02">
+            <div header-tag="header" class="p-1" role="tab">
+              <b-button
+                block
+                v-b-toggle.accordion-4
+                variant="info"
+                class="btn-collap"
+                >Dairy
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  viewBox="0 0 16 16"
+                  class="icon-updown"
+                >
+                  <g fill="none">
+                    <path
+                      d="M4.22 6.53a.75.75 0 0 0 1.06 0L8 3.81l2.72 2.72a.75.75 0 1 0 1.06-1.06L8.53 2.22a.75.75 0 0 0-1.06 0L4.22 5.47a.75.75 0 0 0 0 1.06zm0 2.94a.75.75 0 0 1 1.06 0L8 12.19l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0l-3.25-3.25a.75.75 0 0 1 0-1.06z"
+                      fill="currentColor"
+                    ></path>
+                  </g>
+                </svg>
+              </b-button>
+            </div>
+            <b-collapse
+              id="accordion-4"
+              accordion="my-accordion"
+              role="tabpanel"
+            >
+              <card-body>
+                <card-text>{{ text4 }}</card-text>
+              </card-body>
+            </b-collapse>
+          </div>
           <div no-body class="mb-1 text-detail-item02">
             <div header-tag="header" class="p-1" role="tab">
               <b-button
@@ -114,6 +151,39 @@
             >
               <card-body>
                 <card-text>{{ text }}</card-text>
+              </card-body>
+            </b-collapse>
+          </div>
+          <div no-body class="mb-1 text-detail-item02">
+            <div header-tag="header" class="p-1" role="tab">
+              <b-button
+                block
+                v-b-toggle.accordion-3
+                variant="info"
+                class="btn-collap"
+                >Grooming
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  viewBox="0 0 16 16"
+                  class="icon-updown"
+                >
+                  <g fill="none">
+                    <path
+                      d="M4.22 6.53a.75.75 0 0 0 1.06 0L8 3.81l2.72 2.72a.75.75 0 1 0 1.06-1.06L8.53 2.22a.75.75 0 0 0-1.06 0L4.22 5.47a.75.75 0 0 0 0 1.06zm0 2.94a.75.75 0 0 1 1.06 0L8 12.19l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0l-3.25-3.25a.75.75 0 0 1 0-1.06z"
+                      fill="currentColor"
+                    ></path>
+                  </g>
+                </svg>
+              </b-button>
+            </div>
+            <b-collapse
+              id="accordion-3"
+              accordion="my-accordion"
+              role="tabpanel"
+            >
+              <card-body>
+                <card-text>{{ text3 }}</card-text>
               </card-body>
             </b-collapse>
           </div>
@@ -151,77 +221,9 @@
               </card-body>
             </b-collapse>
           </div>
-
-          <div no-body class="mb-1 text-detail-item02">
-            <div header-tag="header" class="p-1" role="tab">
-              <b-button
-                block
-                v-b-toggle.accordion-3
-                variant="info"
-                class="btn-collap"
-                >Grooming
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  viewBox="0 0 16 16"
-                  class="icon-updown"
-                >
-                  <g fill="none">
-                    <path
-                      d="M4.22 6.53a.75.75 0 0 0 1.06 0L8 3.81l2.72 2.72a.75.75 0 1 0 1.06-1.06L8.53 2.22a.75.75 0 0 0-1.06 0L4.22 5.47a.75.75 0 0 0 0 1.06zm0 2.94a.75.75 0 0 1 1.06 0L8 12.19l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0l-3.25-3.25a.75.75 0 0 1 0-1.06z"
-                      fill="currentColor"
-                    ></path>
-                  </g>
-                </svg>
-              </b-button>
-            </div>
-            <b-collapse
-              id="accordion-3"
-              accordion="my-accordion"
-              role="tabpanel"
-            >
-              <card-body>
-                <card-text>{{ text }}</card-text>
-              </card-body>
-            </b-collapse>
-          </div>
-
-          <div no-body class="mb-1 text-detail-item02">
-            <div header-tag="header" class="p-1" role="tab">
-              <b-button
-                block
-                v-b-toggle.accordion-4
-                variant="info"
-                class="btn-collap"
-                >Grooming
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  viewBox="0 0 16 16"
-                  class="icon-updown"
-                >
-                  <g fill="none">
-                    <path
-                      d="M4.22 6.53a.75.75 0 0 0 1.06 0L8 3.81l2.72 2.72a.75.75 0 1 0 1.06-1.06L8.53 2.22a.75.75 0 0 0-1.06 0L4.22 5.47a.75.75 0 0 0 0 1.06zm0 2.94a.75.75 0 0 1 1.06 0L8 12.19l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0l-3.25-3.25a.75.75 0 0 1 0-1.06z"
-                      fill="currentColor"
-                    ></path>
-                  </g>
-                </svg>
-              </b-button>
-            </div>
-            <b-collapse
-              id="accordion-4"
-              accordion="my-accordion"
-              role="tabpanel"
-            >
-              <card-body>
-                <card-text>{{ text }}</card-text>
-              </card-body>
-            </b-collapse>
-          </div>
         </div>
       </div>
-      <div class="col-6"></div>
+       
     </div>
   </div>
 </template>
@@ -232,9 +234,13 @@ export default {
     return {
       text: `
       Vaccinating pets is very important. The notification system is therefore important because if it is missing it will cause the vaccine to lose its effectiveness.
-       Vaccinations protect your pet from highly contagious and/or deadly diseases and improve your pet's overall quality of life. Experts agree that widespread use of vaccinations within the last century has prevented death and disease in millions of animals.
+       Vaccinations protect your pet from highly contagious and deadly diseases and improve your pet's overall quality of life. Experts agree that widespread use of vaccinations within the last century has prevented death and disease in millions of animals.
         `,
-      text2: `ccccccccccccccccccccccccccccccccccccccccccccc`,
+      text2: `We recommend food that is appropriate for your pet's age. Without adequate nutrition, your pet would not be able to maintain muscle tone, 
+      build and repair muscles, teeth, and bone, perform normal daily activities with ease or fight-off infection. Proteins provide a source of energy 
+      and help with muscle function and growth.`,
+      text3: `We have a bath recording system and will recommend the next bath time for your pet. ust like humans, a pet’s skin and coat will experience a buildup of dirt and oils over time. Keeping your pet on a regular bathing schedule will ensure that they are maintaining a healthy coat, and, as a result, keeping your shared spaces free from excess pet dander. `,
+      text4: `Record your pet's health and daily details of your pet. Never miss an important appointment. And there are always important details notified. There is no need for you to look at notes anymore, just have our application.`,
     };
   },
 };
@@ -305,7 +311,7 @@ export default {
   font-size: 35px;
   font-weight: 500;
   color: rgb(66, 66, 66);
-  padding-top: 3rem;
+  padding-top: 2rem;
 }
 .title-sm {
   padding-top: 1.5rem;
@@ -325,6 +331,7 @@ export default {
 }
 .img01 {
   margin-left: auto;
+  
 }
 .imgpng01 {
   height: auto;
@@ -339,6 +346,7 @@ export default {
   border-radius: 5px;
   background: #f7f7f7;
   margin: 1rem;
+  box-shadow: 3px 3px 8px 0px #0000002e;
 }
 .btn-collap {
   width: -webkit-fill-available;
@@ -394,7 +402,7 @@ export default {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .imgpng01 {
-    height: 60%;
+    height: 55%;
   }
 }
 
