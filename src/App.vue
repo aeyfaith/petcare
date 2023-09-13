@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import Homepage from './components/Homepage.vue'
 import 'font-awesome/css/font-awesome.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
@@ -10,7 +10,7 @@ import '@dafcoe/vue-collapsible-panel/dist/vue-collapsible-panel.css'
 <template>
 <link href="https://fonts.cdnfonts.com/css/prompt" rel="stylesheet">
 
-  <HelloWorld msg="Vite + Vue" />
+  <Homepage msg="Vite + Vue" />
 </template>
 
 <style scoped>

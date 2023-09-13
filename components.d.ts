@@ -15,6 +15,7 @@ declare module 'vue' {
     BCollapse: typeof import('bootstrap-vue-next')['BCollapse']
     BDiv: typeof import('bootstrap-vue-next')['BDiv']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
+    Homepage: typeof import('./src/components/Homepage.vue')['default']
   }
   export interface ComponentCustomProperties {
     vBToggle: typeof import('bootstrap-vue-next')['vBToggle']
