@@ -72,28 +72,28 @@ button:focus-visible {
   border: 2px solid #469AEE;
     background: #fff;
     border-radius: 5px;
-    width: 9rem;
+    width: -webkit-fill-available;
     color: #469AEE;
 }
 .btn-signup:hover{
-  border: 2px solid #469AEE;
-    background: #469AEE;
+  border: 2px solid #357abe;
+    background: #357abe;
     border-radius: 5px;
-    width: 9rem;
+    width: -webkit-fill-available;
     color: #ffffff;
 }
 .btn-login{
   border: 2px solid #469AEE;
   background: #469AEE;
   border-radius: 5px;
-  width: 9rem;
+  width: -webkit-fill-available;
   color:  #ffffff;
 }
 .btn-login:hover{
   border: 2px solid #357abe;
     background: #357abe;
     border-radius: 5px;
-    width: 9rem;
+    width: -webkit-fill-available;
     color:  #ffffff;
 }
 

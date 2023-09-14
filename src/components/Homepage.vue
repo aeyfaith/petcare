@@ -53,6 +53,55 @@
     </div>
   </div>
 
+  <div class="item00 col-12">
+    <div class="col-5 box-login-mb">
+      <div class="container box-login" id="content">
+        <form>
+          <div class="mb-3 t-login">Login</div>
+          <div class="input">
+            <input
+              class="form-control t-email"
+              type="text"
+              name="email"
+              placeholder="email@adress.com"
+            />
+          </div>
+          <div class="input">
+            <input
+              class="form-control t-email"
+              type="password"
+              name="password"
+              placeholder="password"
+            />
+          </div>
+          <div
+            class="d-flex"
+            style="align-items: flex-end; justify-content: space-between"
+          >
+            <div class="mt-3 al-center">
+              <label class="switch">
+                <input type="checkbox" />
+                <span class="slider round"></span>
+              </label>
+              <div class="f-gray-14">Remember</div>
+            </div>
+            <div class="f-red-13">Forgot Password</div>
+          </div>
+
+          <div class="d-flex" style="padding-top: 2rem">
+            <!-- <button class="btn-signup" style="margin-right: 1rem">Sign up</button> -->
+            <button class="btn-login">Login</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+
+
+    <div class="img01 col-6">
+      <img src="src/assets/petpng01.png" alt="" class="imgpng00" />
+    </div>
+  </div>
   <div class="item01 col-12 d-flex">
     <div class="col-5">
       <img src="src/assets/icon01.png" alt="" class="icon-logo" />
@@ -74,7 +123,6 @@
       <img src="src/assets/petpng01.png" alt="" class="imgpng01" />
     </div>
   </div>
-
   <div class="item02 col-12 d-flex">
     <div class="img01 col-6">
       <img src="src/assets/petpng02.png" alt="" class="imgpng01" />
@@ -213,69 +261,78 @@
       </div>
     </div>
   </div>
-  <div class="head-scroll">Why is it necessary to have app Petcare?</div>
-  
-  <div class="box-scroll row  ">
-   
-    <div class="box-detail">
-      <img src="src/assets/box_petfriend.png" alt="" class="box-img" />
-      <div class="box-texthead">Pet friends</div>
-      <div class="box-textdetail">
-        There are many friends of many who are ready to give advice and create
-        new friendships animal lovers
-      </div>
-    </div>
-    <div class="box-detail">
-      <img src="src/assets/box_health.png" alt="" class="box-img" />
-      <div class="box-texthead">Health is important</div>
-      <div class="box-textdetail">
-        Always take care and pay attention to your pet's health. There is a care
-        system specifically suited for your pet.
-      </div>
-    </div>
-    <div class="box-detail">
-      <img src="src/assets/box_hot.png" alt="" class="box-img" />
-      <div class="box-texthead">Hot Ternds</div>
-      <div class="box-textdetail">
-        Hot new trends, updated every day. Keep your pet from falling out of
-        trend in both social and health matters.
-      </div>
-    </div>
-    <div class="box-detail">
-      <img src="src/assets/box_webcam.png" alt="" class="box-img" />
-      <div class="box-texthead">View your pet 24 Hrs</div>
-      <div class="box-textdetail">
-        Keep an eye on your safety at all times with 24-hour CCTV when you're
-        not at home.
-      </div>
+  <div class="item03">
+    <div class="head-scroll">
+      Why is it necessary to have app <font color="#2752a3">Petcare</font>?
     </div>
 
-    <div class="box-detail">
-      <img src="src/assets/box_location.png" alt="" class="box-img" />
-      <div class="box-texthead">Your pet's location</div>
-      <div class="box-textdetail">
-        Track your pet's location There is always a tracking device sending
-        signals. Don't worry about your pet getting lost.
+    <div class="box-scroll row">
+      <div class="box-detail">
+        <img src="src/assets/box_petfriend.png" alt="" class="box-img" />
+        <div class="box-texthead">Pet friends</div>
+        <div class="box-textdetail">
+          There are many friends of many who are ready to give advice and create
+          new friendships animal lovers
+        </div>
       </div>
-    </div>
+      <div class="box-detail">
+        <img src="src/assets/box_health.png" alt="" class="box-img" />
+        <div class="box-texthead">Health is important</div>
+        <div class="box-textdetail">
+          Always take care and pay attention to your pet's health. There is a
+          care system specifically suited for your pet.
+        </div>
+      </div>
+      <div class="box-detail">
+        <img src="src/assets/box_hot.png" alt="" class="box-img" />
+        <div class="box-texthead">Hot Ternds</div>
+        <div class="box-textdetail">
+          Hot new trends, updated every day. Keep your pet from falling out of
+          trend in both social and health matters.
+        </div>
+      </div>
+      <div class="box-detail">
+        <img src="src/assets/box_webcam.png" alt="" class="box-img" />
+        <div class="box-texthead">View your pet 24 Hrs</div>
+        <div class="box-textdetail">
+          Keep an eye on your safety at all times with 24-hour CCTV when you're
+          not at home.
+        </div>
+      </div>
 
-    
-    <div class="box-detail">
-      <img src="src/assets/box_doctor.png" alt="" class="box-img" />
-      <div class="box-texthead">Doctor</div>
-      <div class="box-textdetail">
-        There are doctors and experts available to give appropriate advice. If there is a problem, you can call the staff.
+      <div class="box-detail">
+        <img src="src/assets/box_location.png" alt="" class="box-img" />
+        <div class="box-texthead">Your pet's location</div>
+        <div class="box-textdetail">
+          Track your pet's location There is always a tracking device sending
+          signals. Don't worry about your pet getting lost.
+        </div>
       </div>
-    </div>
 
-    <div class="box-detail">
-      <img src="src/assets/box_doctor.png" alt="" class="box-img" />
-      <div class="box-texthead">Doctor</div>
-      <div class="box-textdetail">
-        There are doctors and experts available to give appropriate advice. If there is a problem, you can call the staff.
+      <div class="box-detail">
+        <img src="src/assets/box_doctor.png" alt="" class="box-img" />
+        <div class="box-texthead">Doctor</div>
+        <div class="box-textdetail">
+          There are doctors and experts available to give appropriate advice. If
+          there is a problem, you can call the staff.
+        </div>
+      </div>
+
+      <div class="box-detail">
+        <img src="src/assets/box_appo.png" alt="" class="box-img" />
+        <div class="box-texthead">Help organize appointments</div>
+        <div class="box-textdetail">
+          Help organize your pet's appointments. both medical appointments and
+          appointments with friends
+        </div>
       </div>
     </div>
-    
+  </div>
+  <div class="item04">
+    <img src="src/assets/mawthank.png" alt="" class="img-thk" />
+    <div class="text-thk">Thank you for interest in Petcare</div>
+    <div>Sameanmart Aooppathum</div>
+    <div>Email : Sameanmart@gmail.com</div>
   </div>
 </template>
 
@@ -369,7 +426,15 @@ export default {
   text-align: start;
   padding-left: 1rem;
 }
+.item00 {
+  display: flex;
+  padding: 4rem 4rem 0rem 4rem;
+  background-image: url(src/assets/bg02.PNG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .item01 {
+  display: flex;
   padding: 4rem 4rem 0rem 4rem;
   background-image: url(src/assets/bg02.PNG);
   background-size: cover;
@@ -384,6 +449,13 @@ export default {
   margin-left: auto;
 }
 .imgpng01 {
+  height: auto;
+  width: auto;
+}
+.img00 {
+  margin-left: auto;
+}
+.imgpng00 {
   height: auto;
   width: auto;
 }
@@ -443,13 +515,13 @@ export default {
   margin-left: 2rem;
 }
 .box-scroll {
-    display: flex;
-    padding: 1rem;
-    overflow-y: hidden;
-    width: max-content;
-    overflow-x: scroll;   
-    max-width: 100%;
-    flex-wrap: nowrap;
+  display: flex;
+  padding: 1rem;
+  overflow-y: hidden;
+  width: max-content;
+  overflow-x: scroll;
+  max-width: 100%;
+  flex-wrap: nowrap;
 }
 .box-detail {
   width: 18rem;
@@ -462,7 +534,6 @@ export default {
   border: 1px solid #e7e7e7;
   flex: 0 0 auto;
   cursor: pointer;
-
 }
 .box-detail:hover {
   background: #c3dfff;
@@ -485,49 +556,258 @@ export default {
 .scrolling-wrapper {
   -webkit-overflow-scrolling: touch;
 }
+.item03 {
+  background-color: #fff9ee;
+}
+.item04 {
+  padding: 3rem;
+}
+.text-thk {
+  font-size: 25px;
+  font-weight: 500;
+}
+.img-thk {
+  width: 16rem;
+  padding: 2rem;
+}
+.t-login {
+  font-size: 22px;
+  font-weight: 500;
+  color: #469aee;
+  text-align: left;
+}
+.t-email {
+  text-align: left;
+  display: block;
+  margin-top: 10px;
+  color: #469aee;
+  border: 1px solid #bedeff;
+}
+.box-login {
+  border: 1px solid #e6e6e6;
+  padding: 3rem 3rem;
+  border-radius: 2rem;
+  background: #ffffff;
+  width: 400px;
+  max-width: 95%;
+  box-shadow: 3px 3px 7px 0px #0000002e;
+  margin-top: 7rem;
+}
+.al-center {
+  display: flex;
+  align-items: center;
+}
+.f-gray-14 {
+  font-size: 14px;
+  color: #7f7f7f;
+  font-weight: 500;
+}
+.f-red-13 {
+  font-size: 13px;
+  color: #de3535;
+  font-weight: 500;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 17px;
+  margin-right: 10px;
+}
 
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(13px);
+  -ms-transform: translateX(13px);
+  transform: translateX(13px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.form-control:focus {
+  border-color: #86b7fe;
+  box-shadow: 0 0 1px 2px rgb(13 110 253 / 9%);
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #469aee;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #469aee;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #469aee;
+}
 ::-webkit-scrollbar-thumb {
-    background: #2752a3;
-    border-radius: 5px;
+  background: #2752a3;
+  border-radius: 5px;
 }
 ::-webkit-scrollbar-track {
-    background: #c3dfff;
-    border-radius: 5px;
+  background: #c3dfff;
+  border-radius: 5px;
 }
 ::-webkit-scrollbar {
-    width: 0px;
-    height: 10px;
+  width: 0px;
+  height: 10px;
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .box-login-mb{
+    margin: auto;
+    max-width: none;
+    width: auto;
+  }
+  .imgpng00 {
+    display: none;
+  }
+  .box-login {
+    margin-top: 0rem;
+
+    padding: 1rem 1rem;
+  }
+  .f-red-13 {
+    font-size: 10px;
+  }
+  .f-gray-14 {
+    font-size: 10px;
+  }
+  .item00 {
+    display: block;
+    padding-bottom: 3rem;
+  }
+  .img00 {
+    margin: unset;
+  }
+  .imgpng01 {
+    height: 35%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .box-login-mb{
+    margin: auto;
+    max-width: none;
+    width: auto;
+  }
+  .imgpng00 {
+    display: none;
+  }
+  .box-login {
+    margin-top: 0rem;
+    padding: 2rem 1.5rem;
+  }
+  .f-red-13 {
+    font-size: 11px;
+  }
+  .f-gray-14 {
+    font-size: 11px;
+  }
+  .item00 {
+    display: block;
+    padding-bottom: 3rem;
+  }
+  .img00 {
+    margin: unset;
+  }
   .imgpng01 {
     height: 40%;
   }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .imgpng00 {
+    display: none;
+  }.box-login-mb{
+    margin: auto;
+    max-width: none;
+    width: auto;
+  }
+  .box-login {
+    margin-top: 0rem;
+  }
+  .item00 {
+    display: block;
+    padding-bottom: 3rem;
+  }
+  .img00 {
+    margin: unset;
+  }
   .imgpng01 {
     height: 50%;
   }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .imgpng01 {
-    height: 55%;
-  }
-}
-
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .imgpng00 {
+    height: 70%;
+  }
   .imgpng01 {
-    height: 80%;
+    height: 70%;
+  }
+  .box-login {
+    margin-top: 5rem;
+  }
+  .box-login {
+    margin-top: 1rem;
   }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+  .imgpng00 {
+    height: 90%;
+  }
   .imgpng01 {
     height: 90%;
   }
