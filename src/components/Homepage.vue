@@ -11,14 +11,14 @@
     <button type="button" @click="count++">count is {{ count }}</button>  
   </div> -->
   <div class="head-login col-12 container bg-white">
-    <div class="head-text col-4 m-auto">
+    <div class="head-text m-auto col-md-6 col-lg-4 col-sm-8">
       <img src="src/assets/icon01.png" class="head-icon" />
       <div>Home</div>
       <div>Service</div>
       <div>About Us</div>
       <div>Blog</div>
     </div>
-    <div class="search-container col-4">
+    <div class="search-container col-4 col-md-3 col-lg-4">
       <form action="" class="d-flex form-search">
         <input
           type="text"
@@ -29,7 +29,7 @@
         <button type="submit"><i class="fa fa-search"></i></button>
       </form>
     </div>
-    <div class="col-2 t-call m-auto">
+    <div class="col-2 t-call m-auto col-md-3 col-sm-3 col-lg-2">
       <div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -92,37 +92,60 @@
             <!-- <button class="btn-signup" style="margin-right: 1rem">Sign up</button> -->
             <button class="btn-login">Login</button>
           </div>
+          <div class="d-flex j-space-center">
+            <div class="t-blue-13">Don't have any account ?</div>
+            <div class="t-blue-underline">Signup</div>
+          </div>
         </form>
       </div>
     </div>
-
-
 
     <div class="img01 col-6">
       <img src="src/assets/petpng01.png" alt="" class="imgpng00" />
     </div>
   </div>
-  <div class="item01 col-12 d-flex">
-    <div class="col-5">
-      <img src="src/assets/icon01.png" alt="" class="icon-logo" />
-      <div class="gruop-text-title">
-        The more<font color="#2752a3"> people </font>I meet, the more I love my
-        <font color="#2752a3">pet </font>for all life.
+  <div class="img03-2 col-6  col-sm-12 col-md-12 col-lg-6">
+      <img src="src/assets/petpng03.png" alt="" class="imgpng02" />
+    </div>
+
+  <div class="item01 col-12  ">
+    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+      <div class="img01">
+      <img src="src/assets/icon01.png" alt="" class="icon-logo col-12  " />
+    </div>
+      <div class="col-12 box-icon  ">
+        
+        <div class="col-6 col-sm-6 col-md-5 col-lg-5 icon-box"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+          class="icon-size" viewBox="0 0 24 24"><circle cx="4.5" cy="9.5" r="2.5" fill="currentColor"></circle><circle cx="9" cy="5.5" r="2.5" fill="currentColor"></circle><circle cx="15" cy="5.5" r="2.5" fill="currentColor"></circle><circle cx="19.5" cy="9.5" r="2.5" fill="currentColor"></circle><path d="M17.34 14.86c-.87-1.02-1.6-1.89-2.48-2.91c-.46-.54-1.05-1.08-1.75-1.32c-.11-.04-.22-.07-.33-.09c-.25-.04-.52-.04-.78-.04s-.53 0-.79.05c-.11.02-.22.05-.33.09c-.7.24-1.28.78-1.75 1.32c-.87 1.02-1.6 1.89-2.48 2.91c-1.31 1.31-2.92 2.76-2.62 4.79c.29 1.02 1.02 2.03 2.33 2.32c.73.15 3.06-.44 5.54-.44h.18c2.48 0 4.81.58 5.54.44c1.31-.29 2.04-1.31 2.33-2.32c.31-2.04-1.3-3.49-2.61-4.8z" fill="currentColor"></path></svg>
+         <div class="icon-head-t">Help take care of pets</div> 
+         <div class="icon-t">Help and facilitate you to take care of your pets closely.</div>
+        </div>
+        <div class="col-6 col-sm-6 col-md-5 col-lg-5  icon-box"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+          class="icon-size" viewBox="0 0 32 32"><path d="M14 16.59L11.41 14L10 15.41l4 4l8-8L20.59 10L14 16.59z" fill="currentColor"></path><path d="M16 30l-6.176-3.293A10.982 10.982 0 0 1 4 17V4a2.002 2.002 0 0 1 2-2h20a2.002 2.002 0 0 1 2 2v13a10.982 10.982 0 0 1-5.824 9.707zM6 4v13a8.985 8.985 0 0 0 4.766 7.942L16 27.733l5.234-2.79A8.985 8.985 0 0 0 26 17V4z" fill="currentColor"></path></svg>
+          <div class="icon-head-t" >Safe and reliable</div>
+          <div class="icon-t">Personal information is not leaked. Has an advanced security system</div>
+        </div>
       </div>
-      <div class="title-sm">
-        Take care of your pets with us. One of the best pet care apps You can
-        easily view appointment schedules and care for all aspects of your pet.
-        And there are many friends who are ready to give you advice.
-      </div>
-      <div class=" " style="padding-top: 3rem">
-        <button class="btn-signup" style="margin-right: 1rem">Sign up</button>
-        <button class="btn-login">Login</button>
+      <div class="col-12  box-icon">
+        <div class="col-6 col-sm-6 col-md-5 col-lg-5  icon-box"> <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+             class="icon-size"  viewBox="0 0 24 24"><path d="M20 18c1.1 0 1.99-.9 1.99-2L22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2H0v2h24v-2h-4zM4 6h16v10H4V6z" fill="currentColor"></path></svg>      .
+            <div class="icon-head-t">Suitable for all devices</div>
+            <div class="icon-t">Supports all devices, easy to use</div>
+          </div>
+        <div class="col-6 col-sm-6 col-md-5 col-lg-5  icon-box"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+             class="icon-size"   viewBox="0 0 20 20"><g fill="none"><path d="M9 9.564c0-1.237-.618-3.037-1.834-5.276c-.208-.384-.753-.38-.987-.015c-.326.507-.811 1.026-1.459 1.555l-.287.227l-.657.507c-1.344 1.082-1.874 2.043-1.757 3.464c.102 1.256.855 2.155 2.147 2.567c-.456.537-1.056.96-1.806 1.274a.591.591 0 0 0-.316.77c.124.3.465.442.762.318c1.425-.595 2.448-1.551 3.041-2.853c.222-.486.4-.966.532-1.439l.033-.122l.08-.324l.053-.26l.032-.185l.052-.374c.033-.297.047-.59.043-.88L6.669 8.5a.586.586 0 0 1 .573-.562a.586.586 0 0 1 .592.58c.018 1.146-.212 2.315-.688 3.504l-.02.07a.36.36 0 0 0 .026.21c.08.18.29.26.467.178l.09-.045a.932.932 0 0 0 .151-.107C8.422 11.838 9 10.801 9 9.564zm6.994-2.21A2.5 2.5 0 0 0 13.498 5H9.534c-.313 0-.536.14-.536.498s.2.496.536.496h4.22l.12.006a1.25 1.25 0 0 1 1.13 1.244v5.506l-.006.12A1.25 1.25 0 0 1 13.754 14H5.998c-.301 0-.502.193-.502.495c0 .303.2.5.502.505h7.5l.147-.004a2.5 2.5 0 0 0 2.353-2.496v-.819h1.167l.112-.007a.833.833 0 0 0 .721-.826V9.182l-.006-.102a.834.834 0 0 0-.827-.732l-1.167-.015V7.5l-.004-.147z" fill="currentColor"></path></g></svg>
+             <div class="icon-head-t">Save battery</div>
+             <div class="icon-t">Save battery Doesn't take up much memory space.</div>
+            </div>
       </div>
     </div>
-    <div class="img01 col-6">
-      <img src="src/assets/petpng01.png" alt="" class="imgpng01" />
+    <div class="img03 col-12  col-sm-12 col-md-12 col-lg-6">
+      <img src="src/assets/petpng03.png" alt="" class="imgpng02" />
     </div>
   </div>
+
+
+
   <div class="item02 col-12 d-flex">
     <div class="img01 col-6">
       <img src="src/assets/petpng02.png" alt="" class="imgpng01" />
@@ -435,22 +458,38 @@ export default {
 }
 .item01 {
   display: flex;
-  padding: 4rem 4rem 0rem 4rem;
-  background-image: url(src/assets/bg02.PNG);
-  background-size: cover;
-  background-repeat: no-repeat;
+  padding: 2rem 2rem 2rem 2rem;
+ 
 }
 .item02 {
   padding: 2rem 4rem 2rem 4rem;
+  /* background-image: url(src/assets/bg03.png);  */
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+}
+.item03{
+  background-image: url(src/assets/bg01.jpg); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.item04 {
+  padding: 2rem 4rem 2rem 4rem;
+  /* background-image: url(src/assets/bg04.png);  */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
 }
 .img01 {
   margin-left: auto;
 }
 .imgpng01 {
   height: auto;
-  width: auto;
+  width:-webkit-fill-available;
 }
 .img00 {
   margin-left: auto;
@@ -458,6 +497,13 @@ export default {
 .imgpng00 {
   height: auto;
   width: auto;
+}.imgpng02{
+  width: -webkit-fill-available;
+  display: flex;
+    align-items: center;
+}.imgpng03-2{
+  width: fit-content;
+    margin: auto;
 }
 .icon-logo {
   width: 10rem;
@@ -607,6 +653,51 @@ export default {
   color: #de3535;
   font-weight: 500;
 }
+.t-blue-13 {
+  font-size: 13px;
+  color: #469aee;
+  font-weight: 500;
+  padding-top: 10px;
+}
+.t-blue-underline {
+  font-size: 13px;
+  color: #2752a3;
+  font-weight: 500;
+  padding-top: 10px;
+  text-decoration: underline 1px solid;
+  cursor: pointer;
+  padding-left: 5px;
+}
+.icon-box{
+  padding: 1.5rem;
+  border: 1px solid #c1e0ff;
+  background: #fff;
+  margin: 0.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 3px 3px 7px 0px #0000002e;
+  border-radius: 2rem;
+}
+.icon-box:hover{
+background:#c1e0ff ;
+  border: 1px solid #ffffff;
+}
+.icon-size{
+  width: 8rem;
+  color :#469AEE;
+}
+.icon-head-t{
+  color: #2752a3;
+  font-weight: 500;
+  font-size:large;
+}
+.icon-t{
+  color: #7f7f7f;
+  font-size:medium;
+}.box-icon{
+  display: flex;
+  justify-content: space-evenly
+}
+
 .switch {
   position: relative;
   display: inline-block;
@@ -700,7 +791,7 @@ input:checked + .slider:before {
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .box-login-mb{
+  .box-login-mb {
     margin: auto;
     max-width: none;
     width: auto;
@@ -721,19 +812,41 @@ input:checked + .slider:before {
   }
   .item00 {
     display: block;
-    padding-bottom: 3rem;
+    padding: 2rem;
   }
   .img00 {
     margin: unset;
   }
-  .imgpng01 {
-    height: 35%;
-  }
+  .search-container{
+    display: none;
+  }.t-call{
+    display: none;
+  }.head-text{
+    width: -webkit-fill-available;
+  }.item01{
+    display: block;
+    padding: 15px;
+  }.img03{
+    display: none;
+  }.img03-2{
+    width: auto;
+  }.icon-size{
+  width: 5rem;
+}.icon-head-t{
+  font-size:medium;
+}.icon-t{
+  font-size:small;
+}.icon-logo{
+  display: none;
+}.icon-box{
+ padding: 15px;
+ margin-bottom: 15px;
+}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 767px) {
-  .box-login-mb{
+  .box-login-mb {
     margin: auto;
     max-width: none;
     width: auto;
@@ -758,16 +871,37 @@ input:checked + .slider:before {
   .img00 {
     margin: unset;
   }
-  .imgpng01 {
-    height: 40%;
-  }
+ .search-container{
+    display: none;
+  }.t-call{
+    display: none;
+  }.item01{
+    display: block;
+  }.img03{
+    display: none;
+  }.imgpng02{
+    margin: auto;
+    width: auto;
+  }.icon-size{
+  width: 5rem;
+}.icon-head-t{
+  font-size:medium;
+}.icon-t{
+  font-size:small;
+}.icon-logo{
+  display: none;
+}.icon-box{
+ padding: 15px;
+ margin-bottom: 15px;
+}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .imgpng00 {
     display: none;
-  }.box-login-mb{
+  }
+  .box-login-mb {
     margin: auto;
     max-width: none;
     width: auto;
@@ -782,9 +916,28 @@ input:checked + .slider:before {
   .img00 {
     margin: unset;
   }
-  .imgpng01 {
-    height: 50%;
-  }
+.search-container{
+    display: none;
+  }.item01{
+    display: block;
+    padding: 0;
+  }.img03{
+    display: none;
+  }.imgpng02{
+    margin: auto;
+    width: auto;
+  }.icon-size{
+  width: 5rem;
+}.icon-head-t{
+  font-size:medium;
+}.icon-t{
+  font-size:small;
+}.icon-logo{
+  display: none;
+}.icon-box{
+ padding: 15px;
+ margin-bottom: 15px;
+}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -792,14 +945,15 @@ input:checked + .slider:before {
   .imgpng00 {
     height: 70%;
   }
-  .imgpng01 {
-    height: 70%;
-  }
   .box-login {
     margin-top: 5rem;
   }
   .box-login {
     margin-top: 1rem;
+  }.search-container{
+    display: none;
+  }.img03-2{
+    display: none;
   }
 }
 
@@ -807,9 +961,9 @@ input:checked + .slider:before {
 @media only screen and (min-width: 1200px) {
   .imgpng00 {
     height: 90%;
+  }.img03-2{
+    display: none;
   }
-  .imgpng01 {
-    height: 90%;
-  }
+
 }
 </style>
