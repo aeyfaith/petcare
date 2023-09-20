@@ -10,48 +10,7 @@
   <!-- <div class="card">
     <button type="button" @click="count++">count is {{ count }}</button>  
   </div> -->
-  <div class="head-login col-12 container bg-white">
-    <div class="head-text m-auto col-md-6 col-lg-4 col-sm-8">
-      <img src="src/assets/icon01.png" class="head-icon" />
-      <div>Home</div>
-      <div>Service</div>
-      <div>About Us</div>
-      <div>Blog</div>
-    </div>
-    <div class="search-container col-4 col-md-3 col-lg-4">
-      <form action="" class="d-flex form-search">
-        <input
-          type="text"
-          placeholder="Search.."
-          name="search"
-          class="input-search"
-        />
-        <button type="submit"><i class="fa fa-search"></i></button>
-      </form>
-    </div>
-    <div class="col-2 t-call m-auto col-md-3 col-sm-3 col-lg-2">
-      <div>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="1.5rem"
-          height="1.5rem"
-          fill="currentColor"
-          class="bi bi-telephone-fill"
-          viewBox="0 0 16 16"
-          color="#264971"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
-          />
-        </svg>
-      </div>
-      <div style="margin-left: 1rem">
-        <div>Call me</div>
-        <div>080-123-4567</div>
-      </div>
-    </div>
-  </div>
+  
 
   <div class="item00 col-12">
     <div class="col-5 box-login-mb">
@@ -104,7 +63,7 @@
       <img src="src/assets/petpng01.png" alt="" class="imgpng00" />
     </div>
   </div>
-  <div class="img03-2 col-6  col-sm-12 col-md-12 col-lg-6">
+  <div class="img03-2 col-6  col-sm-12 col-md-12 col-lg-4">
       <img src="src/assets/petpng03.png" alt="" class="imgpng02" />
     </div>
 
@@ -146,11 +105,11 @@
 
 
 
-  <div class="item02 col-12 d-flex">
-    <div class="img01 col-6">
+  <div class="item02 col-12">
+    <div class="img01 col-12  col-sm-12 col-md-12 col-lg-6  ">
       <img src="src/assets/petpng02.png" alt="" class="imgpng01" />
     </div>
-    <div class="col-5 m-auto">
+    <div class="col-12 m-auto col-sm-12 col-md-12 col-lg-6 ">
       <div class="gruop-text-title">Pet Care Service</div>
       <div class="title-sm">
         Our app offers a complete range of services for your pet. People who
@@ -360,7 +319,18 @@
 </template>
 
 <script lang="ts">
+
 export default {
+  // name: "Homepage",
+  // props:{
+  //   msg: String
+  // },
+  // methods:{
+  //   Service(){
+  //     console.log ("going to service page");
+  //     this.$router.push({name:"Service"});
+  //   }
+  // }
   data() {
     return {
       text4: `Record your pet's health and daily details of your pet. Never miss an important appointment. And there are always important details notified. There is no need for you to look at notes anymore, just have our application.`,
@@ -375,7 +345,10 @@ export default {
     };
   },
 };
+
+
 </script>
+
 
 <style scoped>
 .read-the-docs {
@@ -462,12 +435,13 @@ export default {
  
 }
 .item02 {
-  padding: 2rem 4rem 2rem 4rem;
+  padding: 1rem;
   /* background-image: url(src/assets/bg03.png);  */
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top;
+  display: flex;
 }
 .item03{
   background-image: url(src/assets/bg01.jpg); 
@@ -489,7 +463,7 @@ export default {
 }
 .imgpng01 {
   height: auto;
-  width:-webkit-fill-available;
+  width:70%;
 }
 .img00 {
   margin-left: auto;
@@ -790,7 +764,7 @@ input:checked + .slider:before {
   height: 10px;
 }
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 599px) {
   .box-login-mb {
     margin: auto;
     max-width: none;
@@ -841,6 +815,57 @@ input:checked + .slider:before {
 }.icon-box{
  padding: 15px;
  margin-bottom: 15px;
+}
+
+.item02{
+  padding: 15px;
+  display: block;
+}.gruop-text-title{
+  font-size: 18px;
+    font-weight: 500;
+    color: rgb(66, 66, 66);
+    padding-top: 0;
+}.title-sm {
+    padding-top: 5px;
+    text-align: center;
+    padding-left: 0;
+    font-size: small;
+}.btn-collap{
+  font-size: medium;
+    padding: 10px;
+}.collap-menu{
+  padding: 10px;
+  margin: 10px;
+}.head-scroll{
+  font-size: large;
+    font-weight: 500;
+    padding-top: 10px;
+    text-align: center;
+    margin-left: 0;
+}.box-detail{
+  width: 10rem;
+    padding: 5px;
+    margin: 5px;
+}
+.box-texthead {
+    font-size: large;
+}.box-textdetail {
+    font-size: small;
+    margin: 5px;
+}.box-img {
+    width: 40%;
+    margin: 10px;
+}.box-scroll {
+    padding: 10px;
+}.img-thk{
+  width: 7rem;
+  padding: 10px;
+}.text-thk{
+  font-size: large;
+}.item04{
+  padding: 15px;
+}.imgpng01{
+    width: 70%;
 }
 }
 
@@ -894,6 +919,56 @@ input:checked + .slider:before {
  padding: 15px;
  margin-bottom: 15px;
 }
+.item02{
+  padding: 15px;
+  display: block;
+}.gruop-text-title{
+  font-size: 18px;
+    font-weight: 500;
+    color: rgb(66, 66, 66);
+    padding-top: 0;
+}.title-sm {
+    padding-top: 5px;
+    text-align: center;
+    padding-left: 0;
+    font-size: small;
+}.btn-collap{
+  font-size: medium;
+    padding: 10px;
+}.collap-menu{
+  padding: 10px;
+  margin: 10px;
+}.head-scroll{
+  font-size: large;
+    font-weight: 500;
+    padding-top: 10px;
+    text-align: center;
+    margin-left: 0;
+}.box-detail{
+  width: 10rem;
+    padding: 5px;
+    margin: 5px;
+}
+.box-texthead {
+    font-size: large;
+}.box-textdetail {
+    font-size: small;
+    margin: 5px;
+}.box-img {
+    width: 40%;
+    margin: 10px;
+}.box-scroll {
+    padding: 10px;
+}.img-thk{
+  width: 7rem;
+  padding: 10px;
+}.text-thk{
+  font-size: large;
+}.item04{
+  padding: 15px;
+}.imgpng01{
+    width: 70%;
+}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -937,6 +1012,57 @@ input:checked + .slider:before {
 }.icon-box{
  padding: 15px;
  margin-bottom: 15px;
+}
+
+.item02{
+  padding: 15px;
+  display: block;
+}.gruop-text-title{
+  font-size: 18px;
+    font-weight: 500;
+    color: rgb(66, 66, 66);
+    padding-top: 0;
+}.title-sm {
+    padding-top: 5px;
+    text-align: center;
+    padding-left: 0;
+    font-size: small;
+}.btn-collap{
+  font-size: medium;
+    padding: 10px;
+}.collap-menu{
+  padding: 10px;
+  margin: 10px;
+}.head-scroll{
+  font-size: large;
+    font-weight: 500;
+    padding-top: 10px;
+    text-align: center;
+    margin-left: 0;
+}.box-detail{
+  width: 10rem;
+    padding: 5px;
+    margin: 5px;
+}
+.box-texthead {
+    font-size: large;
+}.box-textdetail {
+    font-size: small;
+    margin: 5px;
+}.box-img {
+    width: 40%;
+    margin: 10px;
+}.box-scroll {
+    padding: 10px;
+}.img-thk{
+  width: 7rem;
+  padding: 10px;
+}.text-thk{
+  font-size: large;
+}.item04{
+  padding: 15px;
+}.imgpng01{
+    width: 70%;
 }
 }
 

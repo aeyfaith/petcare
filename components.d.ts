@@ -16,6 +16,9 @@ declare module 'vue' {
     BDiv: typeof import('bootstrap-vue-next')['BDiv']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     Homepage: typeof import('./src/components/Homepage.vue')['default']
+    RouterLink: typeof import('vue-router')['RouterLink']
+    RouterView: typeof import('vue-router')['RouterView']
+    Service: typeof import('./src/components/Service.vue')['default']
   }
   export interface ComponentCustomProperties {
     vBToggle: typeof import('bootstrap-vue-next')['vBToggle']

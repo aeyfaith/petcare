@@ -1,16 +1,16 @@
 <script setup lang="ts">
-import Homepage from './components/Homepage.vue'
 import 'font-awesome/css/font-awesome.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import '@dafcoe/vue-collapsible-panel/dist/vue-collapsible-panel.css'
-
+import { RouterView } from 'vue-router'
 </script>
 
 <template>
 <link href="https://fonts.cdnfonts.com/css/prompt" rel="stylesheet">
 
-  <Homepage msg="Vite + Vue" />
+<RouterView></RouterView>
+  
 </template>
 
 <style scoped>
