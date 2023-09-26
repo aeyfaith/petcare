@@ -4,9 +4,9 @@
       <img src="src/assets/icon01.png" class="head-icon" />      
       <!-- <router-link :to="{path:'/'}">Home</router-link> -->
       <router-link :to="{name:'Home'}">Home</router-link>
-      <router-link to="/service">Service</router-link>
+      <router-link to="/blog">Blog</router-link>   
       <router-link to="/about">About Us</router-link>
-      <router-link to="/blog">Blog</router-link>
+      <router-link to="/service">Service</router-link>
     </div>
     <div class="search-container col-4 col-md-3 col-lg-4">
       <form action="" class="d-flex form-search">

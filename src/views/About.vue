@@ -484,7 +484,7 @@ export default {
   justify-content: center;
   padding: 1.25rem;
   background: #f7f7f7;
-  border-radius: 5px;
+  border-radius: 15px;
   margin: 1rem;
   border: 1px solid #e7e7e7;
   flex: 0 0 auto;
